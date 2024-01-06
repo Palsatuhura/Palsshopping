@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: #fff;
+}
+section{
+    position: absolute;
+    height: 130%;
+    width: 100%;
+    background: url(images/banner7.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.form-container{
+    width: 380px;
+    height: 670px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000; 
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #fff;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    margin: 1em 0;
+    background: transparent;
+    border-radius: 30px;
+}
+.control label{
+    color: orange;
+    font-size: 16px;
+}
+.submit input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    outline: none;
+    margin: 1em 0;
+    background: orange;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: .3s ease;
+}
+.submit input:hover{
+    opacity: 1;
+}
+.link a{
+    color: #fff;
+    opacity; .6;
+    transition: opacity .6s ease;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 2px 12px;
+    position: relative;
+    color: orange;
+    padding-left: 65px;
+}
+.link a:hover{
+    opacity: 1;
+    color: #fff;
+}
+.link a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.link a:hover::after{
+    width: 100%;
+}
+span
+    {
+    color: #fff;
+}
+.form-container1{
+    width: 380px;
+    height: 670px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
